@@ -68,7 +68,7 @@ class Sewa:
 			print("\n[*] Semua Pesanan Anda\n")
 			for i in range(len(satu[0])-1):
 				nol += 1
-				print(f"\n{str(satu[0][0])} : {str(satu[0][nol])}")
+				print(f"{str(satu[0][0])} : {str(satu[0][nol])}")
 				print(f"{str(satu[1][0])} : {str(satu[1][nol])}")
 				print(f"{str(satu[2][0])} : {str(satu[2][nol])}")
 				print(f"{str(satu[3][0])} : {str(satu[3][nol])}")
