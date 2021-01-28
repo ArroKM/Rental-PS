@@ -1,5 +1,5 @@
 # Coded by AseCx
-# App Pemesanan Rental PS
+# App Pemesanan Rental PS 24 jam
 import os, re
 from time import sleep
 
