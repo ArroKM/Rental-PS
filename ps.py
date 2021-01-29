@@ -1,3 +1,4 @@
+# XiuzCode
 # Coded by AseCx
 # App Pemesanan Rental PS
 import os, re
@@ -49,7 +50,7 @@ class Sewa:
 				if no >= jum:
 					c = "Tgl "+str(tgl)+", "+str(jam)+":00"
 					d = "Tgl "+str(tgl)+", "+str(int(jam)+jum)+":00"
-					aa = ary.array([nam,na,str(jum)+"Jam",jum*4000,c,d])
+					aa = ary.array([nam,na,str(jum)+" Jam","Rp."+str(jum*4000),c,d])
 					satu = ary.hstack((satu, ary.atleast_2d(aa).T))
 
 			print("[*] Pesanan Berhasil")
